@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./fontawsome/css/all.css">
+    <link rel="stylesheet" href="./less/index.css">
+
+    <script src="./js/jQuery3.6.0.js"></script>
+    <script src="./js/index.js"></script>
+    <script></script>
+</head>
+
+<body>
+    <!-- 小屏时:点击导航菜单后出现半透明背景 -->
+    <div class="show"></div>
+    <!-- 大屏时:点击导航后导航背景白色 -->
+    <div class="submenu_background"></div>
+    <!-- 导航最外层容器 -->
+    <div class="top-bar">
+        <!-- 导航菜单 -->
+        <div class="top-menu">
+                <i class="fa fa-bars open-menu" aria-hidden="true"></i>
+            <div class="show-menu">
+                    <i class="fa fa-times fa-lg close-menu" aria-hidden="true"></i>
+                <div class="menu-top">
+                    <ul id="submenu">
+                        <li>
+                            <a href="#">简介</a>
+                            <ul>
+                                <a href="#">
+                                    <li>美图简介</li>
+                                </a>
+                                <a href="#">
+                                    <li>发展历史</li>
+                                </a>
+                                <a href="#">
+                                    <li>美图文化</li>
+                                </a>
+                                <a href="#">
+                                    <li>美图团队</li>
+                                </a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">业务</a>
+                            <ul>
+                                <a href="#">
+                                    <li>面向用户</li>
+                                </a>
+                                <a href="#">
+                                    <li>面向行业</li>
+                                </a>
+                                <a href="#">
+                                    <li>核心技术</li>
+                                </a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">人才</a>
+                            <ul>
+                                <a href="#">
+                                    <li>人才发展</li>
+                                </a>
+                                <a href="#">
+                                    <li>薪酬福利</li>
+                                </a>
+                                <a href="#">
+                                    <li>工作环境</li>
+                                </a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">社会责任</a>
+                            <ul>
+                                <a href="#">
+                                    <li>社会责任</li>
+                                </a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">合作案例</a>
+                            <ul>
+                                <a href="#">
+                                    <li>营销合作</li>
+                                </a>
+                                <a href="#">
+                                    <li>战略合作</li>
+                                </a>
+                                <a href="#">
+                                    <li>联系我们</li>
+                                </a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">投资者</a>
+                            <ul>
+                                <a href="#">
+                                    <li>公告与通函</li>
+                                </a>
+                                <a href="#">
+                                    <li>联系我们</li>
+                                </a>
+                                <a href="#">
+                                    <li>公告与通函</li>
+                                </a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">媒体</a>
+                            <ul>
+                                <a href="#">
+                                    <li>美图动态</li>
+                                </a>
+                                <a href="#">
+                                    <li>媒体资料库</li>
+                                </a>
+                                <a href="#">
+                                    <li>联系我们</li>
+                                </a>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="menu-bottom">
+                    <a href="#">简</a>
+                    <span>|</span>
+                    <a href="#">繁体</a>
+                    <span>|</span>
+                    <a href="#">English</a>
+                </div> -->
+            </div>
+        </div>
+        <!-- logo -->
+        <div class="top-logo">
+            <img src="./img/logo-primary.@e17762fb.png" alt="">
+        </div>
+        <!-- 右侧头像 -->
+        <div class="top-user">
+            <a href="#">
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+    <!-- 首页背景 -->
+    <div class="top-bj clearfix">
+        <div></div>
+    </div>
+    <!-- 公司简介 -->
+    <div class="MT_introduce">
+        <p>美图公司成立于2008年10月，是一家以“美”为内核、以人工智能为驱动的科技公司，通过影像产品和颜值管理服务帮助用户全方位变美，通过SaaS服务助力美丽产业数字化升级。</p>
+    </div>
+    <!-- 简介分类 -->
+    <div class="MT_introduce_class">
+        <div class="MT_jj"><span>美图简介</span></div>
+        <div class="MT_wh"><span>美图文化</span></div>
+        <div class="MT_td"><span>美图团队</span></div>
+
+    </div>
+    <!-- tab菜单 -->
+    <div class="MT_tab_menu">
+        <ul>
+            <li class="liNew3">面向用户</li>
+            <li>面向行业</li>
+            <li>核心技术</li>
+        </ul>
+    </div>
+    <!-- tab内容 -->
+    <div>
+        <div class="tab_content">
+            <ul>
+                <li>
+                    <div class="tab_content_1">
+                        <div>
+                            <img src="./img/美图秀秀.png" alt="">
+                            <span>美图秀秀</span>
+                        </div>
+                        <p>广受欢迎的修图修视频宝藏神器，全球累计超10亿用户！据QuestMobile数据显示，美图秀秀自2008年上线以来在图片美化赛道长期保持用户规模第一。</p>
+                        <a href="#">
+                            <span>查看详情</span>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="tab_content_2">
+                        <div>
+                            <img src="./img/美颜相机.png" alt="">
+                            <span>美图秀秀</span>
+                        </div>
+                        <p>面向年轻用户推出的潮流个性相机APP，以人像为核心，为用户提供强大而简单的变美功能！据QuestMobile数据显示，美颜相机用户规模及月活均位列行业第一。</p>
+                        <a href="#">
+                            <span>查看详情</span>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="tab_content_3">
+                        <div>
+                            <img src="./img/美妆相机.png" alt="">
+                            <span>美图秀秀</span>
+                        </div>
+                        <p>虚拟试妆App，以逼真的妆效体验，为用户解决日常上妆的痛点。通过高级美妆功能，搭配出超过万亿种妆容效果，用户能实时体验不同风格，选择最适合的妆容。</p>
+                        <a href="#">
+                            <span>查看详情</span>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="btn">
+                <button>查看更多业务</button>
+            </div>
+        </div>
+        <div class="tab_content" style="display: none;">
+            <ul>
+                <li>
+                    <div class="tab_content_1">
+                        <div>
+                            <img src="./img/美颜相机.png" alt="">
+                            <span>美图秀秀</span>
+                        </div>
+                        <p>面向年轻用户推出的潮流个性相机APP，以人像为核心，为用户提供强大而简单的变美功能！据QuestMobile数据显示，美颜相机用户规模及月活均位列行业第一。</p>
+                        <a href="#">
+                            <span>查看详情</span>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="tab_content_2">
+                        <div>
+                            <img src="./img/美图秀秀.png" alt="">
+                            <span>美图秀秀</span>
+                        </div>
+                        <p>广受欢迎的修图修视频宝藏神器，全球累计超10亿用户！据QuestMobile数据显示，美图秀秀自2008年上线以来在图片美化赛道长期保持用户规模第一。</p>
+
+                        <a href="#">
+                            <span>查看详情</span>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="tab_content_3">
+                        <div>
+                            <img src="./img/美妆相机.png" alt="">
+                            <span>美图秀秀</span>
+                        </div>
+                        <p>虚拟试妆App，以逼真的妆效体验，为用户解决日常上妆的痛点。通过高级美妆功能，搭配出超过万亿种妆容效果，用户能实时体验不同风格，选择最适合的妆容。</p>
+                        <a href="#">
+                            <span>查看详情</span>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="btn">
+                <button>查看更多业务</button>
+            </div>
+        </div>
+        <div class="tab_content" style="display: none;">
+            <ul>
+                <li>
+                    <div class="tab_content_1">
+                        <div>
+                            <img src="./img/美妆相机.png" alt="">
+                            <span>美图秀秀</span>
+                        </div>
+                        <p>虚拟试妆App，以逼真的妆效体验，为用户解决日常上妆的痛点。通过高级美妆功能，搭配出超过万亿种妆容效果，用户能实时体验不同风格，选择最适合的妆容。</p>
+                        <a href="#">
+                            <span>查看详情</span>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="tab_content_2">
+                        <div>
+                            <img src="./img/美颜相机.png" alt="">
+                            <span>美图秀秀</span>
+                        </div>
+                        <p>面向年轻用户推出的潮流个性相机APP，以人像为核心，为用户提供强大而简单的变美功能！据QuestMobile数据显示，美颜相机用户规模及月活均位列行业第一。</p>
+
+                        <a href="#">
+                            <span>查看详情</span>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="tab_content_3">
+                        <div>
+                            <img src="./img/美图秀秀.png" alt="">
+                            <span>美图秀秀</span>
+                        </div>
+                        <p>广受欢迎的修图修视频宝藏神器，全球累计超10亿用户！据QuestMobile数据显示，美图秀秀自2008年上线以来在图片美化赛道长期保持用户规模第一。</p>
+
+                        <a href="#">
+                            <span>查看详情</span>
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="btn">
+                <button>查看更多业务</button>
+            </div>
+        </div>
+    </div>
+    <!-- 加入我们 -->
+    <div class="MT_join">
+        <div class="MT_join_center">
+            <div class="wrap">
+                <div class="join_us">
+                    <div>
+                        <h3>加入我们</h3>
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                    <ul>
+                        <li><a>社会招聘</a></li>
+                        <li><a>校园招聘</a></li>
+                    </ul>
+                </div>
+                <div class="join_us">
+                    <div>
+                        <h3>联系我们</h3>
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                    <ul>
+                        <li><a>商务合作</a></li>
+                        <li><a>公司地址</a></li>
+                        <li><a>廉政举报</a></li>
+                        <li><a>安全问题反馈</a></li>
+                    </ul>
+                </div>
+                <div class="join_us">
+                    <div>
+                        <h3>关注我们</h3>
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                    <ul>
+                        <li><a>美图公司新浪微博</a></li>
+                        <li><a>美图公司微信公众号</a></li>
+                        <li><a>美图公司官方推特</a></li>
+                        <li><a>其他</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 法律信息 -->
+            <div class="info">
+                <br>
+                <span class="copyright"> &nbsp;©&nbsp;2008-2022&nbsp;美图公司&nbsp;版权所有</span>
+                <br>
+                <br>
+                <a href="#">闽公网安备 35020302000186号</a>
+                <br>
+                <br>
+                <a href="#">闽B2-20040192-1</a> &nbsp;
+                <a href="#">闽网文(2018)8421-380号</a>
+                <br>
+                <br>
+                <a href="#">违法和不良信息举报电话：400-990-9696 </a>
+                <br>
+                <br>
+                <a href="#">网络文化经营</a>
+                <br>
+                <br>
+                <a href="#">互联网药品信息服务资格证书（闽）</a>
+                <br>
+                <br>
+                <a href="#">非经营性-2018-0058</a>
+            </div>
+        </div>
+        
+
+    </div>
+
+</body>
+
+</html>
